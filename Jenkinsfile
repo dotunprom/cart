@@ -2,9 +2,10 @@ pipeline {
   agent any
 
   stages {
-    //
-    stage( 'Download Dependencies') {
+    // For each commit
+    stage( 'Lint Checks') {
       steps {
+        sh ''
       }
     }
   } // End of stage
