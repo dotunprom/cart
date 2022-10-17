@@ -1,5 +1,4 @@
 @Library('roboshop-shared-library@main')
-
 pipeline {
   agent any
 
