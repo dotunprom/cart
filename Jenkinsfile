@@ -18,5 +18,3 @@ pipeline {
       }
     }
   } // End of stage
-}
-}
