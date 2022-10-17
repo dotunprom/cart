@@ -11,7 +11,6 @@ pipeline {
         script {
           nodejs.lintChecks()
         }
-
       }
     }
   } // End of stage
