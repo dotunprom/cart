@@ -8,7 +8,8 @@ pipeline {
     // For each commit
     stage('Lint Checks') {
       steps {
-        nodejs.lintChecks()
+        script {
+          nodejs.lintChecks()
         }
 
       }
